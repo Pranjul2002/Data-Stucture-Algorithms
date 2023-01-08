@@ -1,3 +1,3 @@
-# Data-Stucture-Algorithms_in_Java
+# Data-Stucture_&_Algorithms
 
-To learn Data Stucture & Algorithm.
+To learn Data Stucture & Algorithm in different languages.
