@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int v;
-void create(int v,int arr[v][v]){
+void create(int arr[v][v]){
 	for(int i=0;i<v;i++){
 		for(int j=0;j<v;j++){
 			arr[i][j]=0;
