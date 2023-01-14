@@ -1,9 +1,8 @@
 //adjacency matrix
 
 #include<stdio.h>
-int v;
-int arr[][];
-void create(v,arr[v][v]){
+
+void create(int v,int arr[v][v]){
 	int i,j;
 	for(i=0;i<v;i++){
 		for(j=0;j<v;j++){
@@ -13,7 +12,8 @@ void create(v,arr[v][v]){
 }
 
 int main(){
-	v=5;
+	int v=5;
+	int arr[v][v];
 	create(v,arr[v][v]);
 	printf("\n----------------\n");
 	int i,j;
