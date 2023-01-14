@@ -1,10 +1,10 @@
-//adjacency matrix
-
+//adjacency Matrix
 #include<stdio.h>
 int v;
 void create(int arr[v][v]){
-	for(int i=0;i<v;i++){
-		for(int j=0;j<v;j++){
+	int i,j;
+	for(i=0;i<v;i++){
+		for(j=0;j<v;j++){
 			arr[i][j]=0;
 		}
 	}
@@ -12,8 +12,9 @@ void create(int arr[v][v]){
 
 void printMatrix(int arr[v][v]){
 	printf("\nAdjacency Matrix is ~\n");
-	for(int i=0;i<v;i++){
-		for(int j=0;j<v;j++){
+	int i,j;
+	for(i=0;i<v;i++){
+		for(j=0;j<v;j++){
 			printf(" %d ",arr[i][j]);
 		}
 		printf("\n");
@@ -26,9 +27,9 @@ void createEdge(int arr[v][v],int row,int column){
 
 
 int main(){
-	int v=5;
+	v=5;
 	int arr[v][v];
-	create(v,arr);
+	create(arr);
 	printMatrix(arr);
 	createEdge(arr,2,4);
 	createEdge(arr,3,4);
@@ -36,4 +37,7 @@ int main(){
 	printMatrix(arr);
 	return 0;
 }
+
+
+
 
