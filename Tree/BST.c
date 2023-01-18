@@ -75,10 +75,13 @@ int main(){
     for(int i=0;i<size;i++){
         insert(arr[i]);
     }
+    printf("In Order traversal- ");
     inorderTravese(root);
     printf("\n");
+    printf("Pre order traversal- ");
     preorderTraverse(root);
     printf("\n");
+    printf("Post Order traversal- ");
     postorderTraverse(root);
     printf("\n");
     return 0;
